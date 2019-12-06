@@ -4,26 +4,32 @@
 		<view>
 			<text class="title">{{title}}</text>
 		</view>
+		<popup/>
+		<c-picker/>
 	</view>
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				title: 'Hello'
-			}
-		},
-		onLoad() {
-
-		},
-		methods: {
-
+export default {
+	data() {
+		return {
+			title: 'Hello'
 		}
+	},
+	onLoad() {
+
+	},
+	mounted() {
+		// console.log(this)
+		this.$popup()
+	},
+	methods: {
+
 	}
+}
 </script>
 
-<style>
+<style scoped lang="stylus">
 	.content {
 		text-align: center;
 		height: 400upx;

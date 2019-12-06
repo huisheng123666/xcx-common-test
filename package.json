@@ -54,6 +54,8 @@
     "mini-types": "*",
     "miniprogram-api-typings": "^2.8.0-2",
     "postcss-comment": "^2.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
     "vue-template-compiler": "^2.6.10"
   },
   "browserslist": [
